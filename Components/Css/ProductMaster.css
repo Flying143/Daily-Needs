@@ -1,0 +1,93 @@
+/* Google Font's For .textContent */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+/* Google Font's For .titleText */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+.container {
+    height: auto;
+    width: 100%;
+    float: right;
+}
+
+.heading {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 200px;
+}
+
+.titleText {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.textContent {
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 200px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.label {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.inputField {
+    font-family: "Quicksand", sans-serif;
+    padding: 7px;
+    margin: 5px 0px;
+    font-size: 19px;
+    background-color: rgb(230, 230, 230, 0.2);
+    border: 1px solid dodgerblue;
+    box-shadow: 0px 0px 30px rgba(45, 133, 221, 0.267);
+    outline: none;
+    border-radius: 5px;
+}
+
+.mess {
+    font-size: 12px;
+    color: red;
+}
+
+.addProduct {
+    align-self: flex-end;
+}
+
+.addBtn {
+    background-color: dodgerblue;
+    box-shadow: 0px 0px 30px rgba(45, 133, 221, 0.267);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.errMessages {
+    font-size: 15px;
+    color: red;
+}

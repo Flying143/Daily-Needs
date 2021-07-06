@@ -1,0 +1,59 @@
+.sidebar {
+    background-color: rgb(54, 50, 50);
+    color: white;
+    display: flex;
+    flex: 0.2;
+}
+
+
+/* menu style */
+
+.menu {
+    height: 100vh;
+    width: 250px;
+}
+
+
+/* Company name style */
+
+.logo {
+    text-decoration: none;
+    color: white;
+    margin: 2%;
+    text-indent: 5%;
+    cursor: default;
+}
+
+
+/* sidebar menu-item style */
+
+.menu-item {
+    font-size: 14px;
+    display: flex;
+    padding: 5%;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    border-bottom: 1px solid white;
+}
+
+
+/* sidebar menu-item hover effect */
+
+.menu-item:hover {
+    background-color: rgb(92, 90, 90);
+    padding-left: 7%;
+    color: rgb(212, 205, 205);
+}
+
+.menu-item:active {
+    background-color: rgb(73, 71, 71);
+}
+
+
+/* sidebar menu icon style */
+
+.icon {
+    padding-right: 5%;
+    color: white;
+}
