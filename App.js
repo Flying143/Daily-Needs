@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Dashboard from './Components/Dashboard';
 import ProductMaster from "./Components/ProductMaster"
 import Order from "./Components/Order"
+import ProductCard from './UserSite/ProductCard';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        {/* <ProductCard /> */}
       </div>
     </BrowserRouter>
   );
